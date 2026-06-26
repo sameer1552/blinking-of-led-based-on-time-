@@ -1,0 +1,13 @@
+int led = 13;
+
+void setup() {
+  pinMode(led, OUTPUT);
+}
+
+void loop() {
+  digitalWrite(led, HIGH);
+  delay(3000);   // ON for 3 seconds
+
+  digitalWrite(led, LOW);
+  delay(2000);   // OFF for 2 seconds
+}
