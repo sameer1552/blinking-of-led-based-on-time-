@@ -1,0 +1,27 @@
+          +----------------------------------+
+          |        Arduino IDE Program       |
+          |                                  |
+          |  void setup()                    |
+          |  {                               |
+          |      pinMode(13, OUTPUT);        |
+          |  }                               |
+          |                                  |
+          |  void loop()                     |
+          |  {                               |
+          |      digitalWrite(13, HIGH);     |
+          |      delay(1000);                |
+          |      digitalWrite(13, LOW);      |
+          |      delay(1000);                |
+          |  }                               |
+          +---------------+------------------+
+                          |
+                          | Upload
+                          ▼
+          +----------------------------------+
+          |          Arduino UNO             |
+          |                                  |
+          |      ATmega328P Controller       |
+          |                                  |
+          |  Pin 13  ─────► LED Output       |
+          |  GND     ─────► Ground           |
+          +----------------------------------+
